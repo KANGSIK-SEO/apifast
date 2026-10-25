@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}메모 게시판{% endblock %}
+{% block content %}
+  <h1>간단한 메모 게시판</h1>
+  <p>메모를 등록하고, 목록에서 확인하거나 수정·삭제할 수 있는 FastAPI 예제입니다.</p>
+  <p class="actions">
+    <a class="button" href="/memos/">메모 목록 보기</a>
+    <a class="button" href="/memos/new">새 메모 등록</a>
+  </p>
+{% endblock %}
